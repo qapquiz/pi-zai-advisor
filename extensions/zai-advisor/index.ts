@@ -37,7 +37,7 @@ import { Type } from "typebox";
 
 const ZAI_BASE_URL = "https://api.z.ai/api/coding/paas/v4";
 const ADVISOR_MODEL = process.env.ZAI_ADVISOR_MODEL ?? "glm-5.1";
-const MAX_ADVISOR_USES = parseInt(process.env.ZAI_ADVISOR_MAX_USES ?? "5", 10);
+const MAX_ADVISOR_USES = parseInt(process.env.ZAI_ADVISOR_MAX_USES ?? "3", 10);
 const ADVISOR_SYSTEM_PROMPT = `You are an expert advisor model. Your role is to provide high-level guidance, strategic direction, and corrections to an executor agent that is working on a coding task.
 
 Rules:

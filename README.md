@@ -90,7 +90,7 @@ The `advisor` tool becomes available automatically when using a ZAI executor mod
 |------------------------|------------|------------------------------------|
 | `ZAI_API_KEY`          | —          | ZAI API key (required)             |
 | `ZAI_ADVISOR_MODEL`    | `glm-5.1`  | Advisor model ID                   |
-| `ZAI_ADVISOR_MAX_USES` | `5`        | Max advisor calls per conversation turn |
+| `ZAI_ADVISOR_MAX_USES` | `3`        | Max advisor calls per conversation turn |
 
 ## Commands
 
